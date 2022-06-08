@@ -3,38 +3,38 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-jsbarcode": {
+    "ngx-barcodejs": {
       "projectType": "library",
-      "root": "projects/ngx-jsbarcode",
-      "sourceRoot": "projects/ngx-jsbarcode/src",
+      "root": "projects/ngx-barcodejs",
+      "sourceRoot": "projects/ngx-barcodejs/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ngx-jsbarcode/tsconfig.lib.json",
-            "project": "projects/ngx-jsbarcode/ng-package.json"
+            "tsConfig": "projects/ngx-barcodejs/tsconfig.lib.json",
+            "project": "projects/ngx-barcodejs/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-jsbarcode/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-barcodejs/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-jsbarcode/src/test.ts",
-            "tsConfig": "projects/ngx-jsbarcode/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-jsbarcode/karma.conf.js"
+            "main": "projects/ngx-barcodejs/src/test.ts",
+            "tsConfig": "projects/ngx-barcodejs/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-barcodejs/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ngx-jsbarcode/tsconfig.lib.json",
-              "projects/ngx-jsbarcode/tsconfig.spec.json"
+              "projects/ngx-barcodejs/tsconfig.lib.json",
+              "projects/ngx-barcodejs/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -44,5 +44,5 @@
       }
     }
   },
-  "defaultProject": "ngx-jsbarcode"
+  "defaultProject": "ngx-barcodejs"
 }

@@ -12,9 +12,9 @@
     "declaration": false,
     "downlevelIteration": true,
     "paths": {
-      "ngx-jsbarcode": [
-        "dist/ngx-jsbarcode/ngx-jsbarcode",
-        "dist/ngx-jsbarcode"
+      "ngx-barcodejs": [
+        "dist/ngx-barcodejs/ngx-barcodejs",
+        "dist/ngx-barcodejs"
       ]
     },
     "experimentalDecorators": true,

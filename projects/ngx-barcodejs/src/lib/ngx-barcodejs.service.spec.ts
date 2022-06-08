@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { NgxJsbarcodeService } from './ngx-jsbarcode.service';
+import { NgxBarcodeJsService } from './ngx-barcodejs.service';
 
-describe('NgxJsbarcodeService', () => {
-  let service: NgxJsbarcodeService;
+describe('NgxBarcodeJsService', () => {
+  let service: NgxBarcodeJsService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(NgxJsbarcodeService);
+    service = TestBed.inject(NgxBarcodeJsService);
   });
 
   it('should be created', () => {
