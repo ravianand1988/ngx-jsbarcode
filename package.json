@@ -8,7 +8,24 @@
     "test": "ng test",
     "lint": "ng lint"
   },
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ravianand1988/ngx-jsbarcode"
+  },
+  "author": {
+    "name": "Ravi Kumar",
+    "email": "ravianand1988@live.com"
+  },
+  "keywords": [
+    "angular",
+    "barcode",
+    "js barcode"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravianand1988/ngx-jsbarcode/issues"
+  },
   "dependencies": {
     "@angular/animations": "~11.2.14",
     "@angular/common": "~11.2.14",
@@ -18,11 +35,13 @@
     "@angular/platform-browser": "~11.2.14",
     "@angular/platform-browser-dynamic": "~11.2.14",
     "@angular/router": "~11.2.14",
+    "jsbarcode": "^3.11.5",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1102.18",
     "@angular/cli": "~11.2.18",
     "@angular/compiler-cli": "~11.2.14",
     "@types/jasmine": "~3.6.0",
@@ -35,6 +54,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.5.0",
+    "ng-packagr": "^11.0.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",

@@ -3,5 +3,46 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "ngx-barcodejs": {
+      "projectType": "library",
+      "root": "projects/ngx-barcodejs",
+      "sourceRoot": "projects/ngx-barcodejs/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/ngx-barcodejs/tsconfig.lib.json",
+            "project": "projects/ngx-barcodejs/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-barcodejs/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-barcodejs/src/test.ts",
+            "tsConfig": "projects/ngx-barcodejs/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-barcodejs/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-barcodejs/tsconfig.lib.json",
+              "projects/ngx-barcodejs/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ngx-barcodejs"
 }
