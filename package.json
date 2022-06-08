@@ -9,6 +9,23 @@
     "lint": "ng lint"
   },
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ravianand1988/ngx-jsbarcode"
+  },
+  "author": {
+    "name": "Ravi Kumar",
+    "email": "ravianand1988@live.com"
+  },
+  "keywords": [
+    "angular",
+    "barcode",
+    "js barcode"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravianand1988/ngx-jsbarcode/issues"
+  },
   "dependencies": {
     "@angular/animations": "~11.2.14",
     "@angular/common": "~11.2.14",
