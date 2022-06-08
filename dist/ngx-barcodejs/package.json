@@ -1,0 +1,39 @@
+{
+  "name": "ngx-barcodejs",
+  "version": "1.0.0",
+  "description": "An angular component for Angular 11+ for creating 1-D barcodes based on Lindell's JsBarcode",
+  "homepage": "https://ravianand1988.github.io/ngx-barcode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ravianand1988/ngx-jsbarcode"
+  },
+  "author": {
+    "name": "Ravi Kumar",
+    "email": "ravianand1988@live.com"
+  },
+  "keywords": [
+    "angular",
+    "barcode",
+    "jsbarcode",
+    "barcode js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravianand1988/ngx-jsbarcode/issues"
+  },
+  "main": "bundles/ngx-barcodejs.umd.js",
+  "typings": "ngx-barcodejs.d.ts",
+  "peerDependencies": {
+    "@angular/common": "^11.2.14",
+    "@angular/core": "^11.2.14"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "module": "fesm2015/ngx-barcodejs.js",
+  "es2015": "fesm2015/ngx-barcodejs.js",
+  "esm2015": "esm2015/ngx-barcodejs.js",
+  "fesm2015": "fesm2015/ngx-barcodejs.js",
+  "metadata": "ngx-barcodejs.metadata.json",
+  "sideEffects": false
+}
