@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build ngx-barcodejs",
     "test": "ng test",
     "lint": "ng lint",
     "prepare": "npm run build"
@@ -36,6 +36,7 @@
     "@angular/platform-browser": "~11.2.14",
     "@angular/platform-browser-dynamic": "~11.2.14",
     "@angular/router": "~11.2.14",
+    "@ngneat/spectator": "^7.0.0",
     "jsbarcode": "^3.11.5",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",

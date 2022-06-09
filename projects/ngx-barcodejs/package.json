@@ -21,13 +21,10 @@
   "bugs": {
     "url": "https://github.com/ravianand1988/ngx-jsbarcode/issues"
   },
-  "main": "index.js",
+  "main": "index.ts",
   "typings": "ngx-barcodejs.d.ts",
   "peerDependencies": {
-    "@angular/common": "^11.2.14",
-    "@angular/core": "^11.2.14"
-  },
-  "dependencies": {
-    "tslib": "^2.0.0"
+    "@angular/core": "^11.2.14",
+    "jsbarcode": "^3.11.5"
   }
 }
